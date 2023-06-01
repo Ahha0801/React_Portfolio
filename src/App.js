@@ -34,7 +34,8 @@ function App() {
         <section>
           <h2>Contact</h2>
           <p>
-            You can reach me at email@example.com or find me on LinkedIn.
+            You can reach me at 
+            Github: Ahha0801@github.com
           </p>
         </section>
       </main>
