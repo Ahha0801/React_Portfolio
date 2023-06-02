@@ -1,14 +1,19 @@
-import React from 'react';
+import React, { useEffect } from "react";
 
-function Navbar() {
+function Navbar(props) {
+  const { pages = [], setCurrentPage, currentPage } = props;
+
   return (
-    <nav className="navbar">
-      <a href="/" className="navbar-brand">My Portfolio</a>
-      <ul className="navbar-nav">
-        <li className="nav-item"><a href="/" className="nav-link">Home</a></li>
-        <li className="nav-item"><a href="/about" className="nav-link">About</a></li>
-        <li className="nav-item"><a href="/projects" className="nav-link">Projects</a></li>
-        <li className="nav-item"><a href="/contact" className="nav-link">Contact</a></li>
+    <nav>
+      <ul className="flex-row">
+        {pages.map((Page) => (
+          <li
+            className={`mx-5 ${currentPage.name === Page.name && "navActive"}`}
+            key={Page.name}
+          >
+            <span onClick={() => setCurrentPage(Page)}>{Page.name}</span>
+          </li>
+        ))}
       </ul>
     </nav>
   );
