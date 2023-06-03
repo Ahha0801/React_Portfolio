@@ -4,14 +4,18 @@ body, html, h1, ul {
 }
 
 body {
-  background: rgb(90, 1, 90);
-  color: white;
-}
+   background-image: url("https://th.bing.com/th/id/R.4483a2ba3eceef8496a3a65c8d1d3685?rik=GV5OD6udxZAU%2fA&pid=ImgRaw&r=0") ;
+  text: white
+  
+  }
+
 
 header {
   text-align: center;
   margin: 15px 0 25px 0;
 }
+
+
 
 .nav {
   margin: 15px 0 0 0;
