@@ -34,10 +34,9 @@ Heroku Link: https://reactportfolio20.herokuapp.com/
 ## Technologies
 
 - [Node.js]
-- [Sequelize]
 - [Express]
 - [ReactApp]
-- [MongoDB]
+
 
 ## Contribution
 
