@@ -3,6 +3,7 @@
 - License - MIT
 
 ## Description
+Reactfolio is a modern and customizable personal portfolio web template built using the popular React library. It provides an easy way for developers, designers, and creatives to showcase their work, skills, and achievements in a professiona and visually appealing way
 
 
 Heroku Link: https://reactportfolio20.herokuapp.com/
@@ -18,9 +19,9 @@ Heroku Link: https://reactportfolio20.herokuapp.com/
 
 ## Installation
 
-- Node.js download
+- Components folders
 - npm install/init
-- server to load schema with npm start
+- server npm start
 - React App
 - Heroku uplaod
 
