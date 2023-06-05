@@ -27,7 +27,8 @@ Heroku Link: https://reactportfolio20.herokuapp.com/
 
 ## Usage
 
-- Screen shots:
+- Screen shots:<img width="1511" alt="portfolio" src="https://github.com/Ahha0801/React_Portfolio/assets/128229173/e38d4cf2-56d5-4c8d-9314-a09a834cd0bb">
+
 
 
 
